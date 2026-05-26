@@ -4,10 +4,10 @@ on:
       - main
       - master
 
-  jobs:
-    meu-job:
-      runs-on: ubuntu-latest
+jobs:
+  meu-job:
+    runs-on: ubuntu-latest
 
-      steps:
-        - run: echo "💫 Esse job foi executado automaticamente por um evento"
-        - run: echo"💯 Job está rodando em um servidor hospedado pelo GitHub!"
+    steps:
+      - run: echo "💫 Esse job foi executado automaticamente por um evento"
+      - run: echo"💯 Job está rodando em um servidor hospedado pelo GitHub!"
