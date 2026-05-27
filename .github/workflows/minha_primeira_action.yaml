@@ -13,6 +13,8 @@ jobs:
       - run: echo "💯 Job está rodando em um servidor hospedado pelo GitHub!"
 
   meu-segundo-job:   
+    runs-on: ubuntu-latest
+
     steps: 
       - run: echo "🌤 Informe o clima de amanhã em Goiânia. curl -s "wttr.in/?format=3"
       - run: echo "\t Informe que horas são agora."
