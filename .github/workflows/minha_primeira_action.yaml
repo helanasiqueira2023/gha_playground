@@ -16,5 +16,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - run: echo "🌤 Informe o clima de amanhã em Goiânia. curl -s "wttr.in/?format=3"
-      - run: echo "\t Informe que horas são agora."
+      - run: echo "🌤 Informe o clima de amanhã em Goiânia. "
+      - run: echo "⌚ Informe que horas são agora. date +"%d/%m/%Y %H:%M:%S"
+      - run: ls -la
+      - uses: action/checkout@v6
+
+      - run: ls -la
