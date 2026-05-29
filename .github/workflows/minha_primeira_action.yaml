@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - run: echo "🌤 Informe o clima de amanhã em Goiânia."
-      - run: echo ⌚ Informe que horas são agora. $(date +"%d/%m/%Y %H:%M:%S")
-      - run: ls -la
+      - run:
+             echo "🌤 Informe o clima de amanhã em Goiânia."
+             echo ⌚ Informe que horas são agora. $(date +"%d/%m/%Y %H:%M:%S")
+             ls -la
       - uses: actions/checkout@v6
-
       - run: ls -la
