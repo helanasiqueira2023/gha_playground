@@ -26,6 +26,6 @@ jobs:
           echo "Meu repositório se chama: ${{ github.repository }}"
           ls -la
       - name: Git checkout (faz o clone do repo)
-      - uses: actions/checkout@v6
+        uses: actions/checkout@v6
       - name: "Verifica se o repo foi baixado"
         run: ls -la
