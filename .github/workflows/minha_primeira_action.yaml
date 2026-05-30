@@ -18,7 +18,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-<<<<<<< HEAD
       - name: Primeiro Step
         run: |
           echo "🌤 Informe o clima de amanhã em Goiânia."
@@ -27,16 +26,6 @@ jobs:
           echo "Meu repositório se chama: ${{ github.repository }}"
           ls -la
       - name: Git checkout (faz o clone do repo)
-=======
-      - run:
-             echo "🌤 Informe o clima de amanhã em Goiânia."
-             echo ⌚ Informe que horas são agora. $(date +"%d/%m/%Y %H:%M:%S")
-             ls -la
->>>>>>> a54aba3065d7b05180be7a669c692c9cb3395b6f
       - uses: actions/checkout@v6
-<<<<<<< HEAD
       - name: "Verifica se o repo foi baixado"
         run: ls -la
-=======
-      - run: ls -la
->>>>>>> a54aba3065d7b05180be7a669c692c9cb3395b6f
