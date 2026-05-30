@@ -21,7 +21,7 @@ jobs:
       - name: Primeiro Step
         run: |
           echo "🌤 Informe o clima de amanhã em Goiânia."
-          echo "⌚ Informe que horas são agora. $(date +'%d/%m/%Y %H:%M:%S')""
+          echo "⌚ Informe que horas são agora. $(date +'%d/%m/%Y %H:%M:%S')"
           echo "Hoje é $(TZ='America/Sao_Paulo' date +'%d/%m/%Y %H:%M:%S')"
           echo "Meu repositório se chama: ${{ github.repository }}"
           ls -la
