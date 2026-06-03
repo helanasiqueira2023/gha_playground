@@ -11,7 +11,7 @@ on:
         description: "Meu primeiro input"
         required: true
         type: "string"
-        default: 'Ops, não houve nenhuma mensagem!'
+        default: 'Digite aqui, por favor.'
         
 jobs:
   meu-job:
