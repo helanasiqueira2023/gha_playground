@@ -5,7 +5,13 @@ on:
     branches:
       - main
       - master
-
+  workflow_dispatch:
+    inputs: 
+      teste:
+        description: "Meu primeiro input"
+        required: true
+        type: "string"
+        
 jobs:
   meu-job:
     runs-on: ubuntu-latest
